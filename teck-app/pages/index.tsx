@@ -22,11 +22,11 @@ export default function Home() {
       <Topnav/>
       <div className='flex'>
         <SideNav/>
-          <div className='border-2 rounded-lg'>
-            <Averageschart/>
-          </div>
-          <div className='border-2 rounded-lg'>
+          <div className='rounded-lg'>
             <Fuelchart/>
+          </div>
+          <div className='rounded-lg'>
+          <Averageschart/>
           </div>
       </div>
 

@@ -11,7 +11,7 @@ const Averageschart = () => {
 
     return (
         <div className="App">
-        <h1 className='text-2xl text-center'>Vehicle Averages</h1>
+        <h1 className='text-xl text-center'>Vehicle Averages</h1>
         <h2 className='text-center'>Km, Kg, L</h2>
         <PieChart width={400} height={400} className="-m-10">
           <Pie

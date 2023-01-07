@@ -3,55 +3,50 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 const data = [
   {
-    name: 'Truck A',
+    name: 'January',
     fuel: 4000,
     miles: 2400,
     amt: 2400,
   },
   {
-    name: 'Truck B',
+    name: 'February',
     fuel: 3000,
     miles: 1398,
     amt: 2210,
   },
   {
-    name: 'Truck C',
-    fuel: 2000,
-    miles: 9800,
+    name: 'March',
+    fuel: 2700,
+    miles: 4800,
     amt: 2290,
   },
   {
-    name: 'Truck D',
+    name: 'April',
     fuel: 2780,
     miles: 3908,
     amt: 2000,
   },
   {
-    name: 'Truck E',
+    name: 'May',
     fuel: 1890,
     miles: 4800,
     amt: 2181,
   },
   {
-    name: 'Truck F',
+    name: 'June',
     fuel: 2390,
     miles: 3800,
     amt: 2500,
-  },
-  {
-    name: 'Truck G',
-    fuel: 3490,
-    miles: 4300,
-    amt: 2100,
   },
 ];
 
 const Fuelchart = () => {
     return ( 
                 <div>
-        <h1 className='text-2xl text-center'>Fuel vs. Milage</h1>
+        <h1 className='text-xl text-center'>6 month fuel/mileage trend</h1>
+        <h2 className='text-center'>Litres & Miles</h2>
         <LineChart
-          width={500}
+          width={750}
           height={300}
           data={data}
           margin={{
