@@ -41,30 +41,31 @@ const data = [
 ];
 
 const Fuelchart = () => {
-  return (
-    <div>
-      <h1 className='text-2xl text-center'>Fuel vs. Milage</h1>
-      <LineChart
-        width={500}
-        height={300}
-        data={data}
-        margin={{
-          top: 5,
-          right: 30,
-          left: 20,
-          bottom: 5,
-        }}
-      >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        <Line type="monotone" dataKey="miles" stroke="#8884d8" activeDot={{ r: 8 }} />
-        <Line type="monotone" dataKey="fuel" stroke="#82ca9d" />
-      </LineChart>
-    </div>
-  );
+    return ( 
+                <div>
+        <h1 className='text-xl text-center'>6 month fuel/mileage trend</h1>
+        <h2 className='text-center'>Litres & Miles</h2>
+        <LineChart
+          width={750}
+          height={300}
+          data={data}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Line type="monotone" dataKey="miles" stroke="#8884d8" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="fuel" stroke="#82ca9d" />
+        </LineChart>
+        </div>
+     );
 }
-
+ 
 export default Fuelchart;
