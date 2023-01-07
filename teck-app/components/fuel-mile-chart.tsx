@@ -3,46 +3,40 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 const data = [
   {
-    name: 'Truck A',
+    name: 'January',
     fuel: 4000,
     miles: 2400,
     amt: 2400,
   },
   {
-    name: 'Truck B',
+    name: 'February',
     fuel: 3000,
     miles: 1398,
     amt: 2210,
   },
   {
-    name: 'Truck C',
-    fuel: 2000,
-    miles: 9800,
+    name: 'March',
+    fuel: 2700,
+    miles: 4800,
     amt: 2290,
   },
   {
-    name: 'Truck D',
+    name: 'April',
     fuel: 2780,
     miles: 3908,
     amt: 2000,
   },
   {
-    name: 'Truck E',
+    name: 'May',
     fuel: 1890,
     miles: 4800,
     amt: 2181,
   },
   {
-    name: 'Truck F',
+    name: 'June',
     fuel: 2390,
     miles: 3800,
     amt: 2500,
-  },
-  {
-    name: 'Truck G',
-    fuel: 3490,
-    miles: 4300,
-    amt: 2100,
   },
 ];
 

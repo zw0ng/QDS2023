@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-
-// Our Components
 import Topnav from '../components/topnav'
 import SideNav from '../components/sidenav'
-// import { FunnelChart } from '../recharts/types/chart/FunnelChart'
+import { FunnelChart } from 'recharts/types/chart/FunnelChart'
 import Averageschart from '../components/avg-chart'
 import Fuelchart from '../components/fuel-mile-chart'
 
@@ -21,16 +19,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='color-s'>
-        <Topnav />
-        <div className='flex'>
-          <SideNav />
-          <div className='border-2 rounded-lg'>
-            <Averageschart />
+      <Topnav/>
+      <div className='flex'>
+        <SideNav/>
+          <div className='rounded-lg'>
+            <Fuelchart/>
           </div>
-          <div className='border-2 rounded-lg'>
-            <Fuelchart />
+          <div className='rounded-lg'>
+          <Averageschart/>
           </div>
-        </div>
+      </div>
 
       </main>
     </>
