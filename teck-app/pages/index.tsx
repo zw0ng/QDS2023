@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
+
+// Our Components
 import Topnav from '../components/topnav'
 import SideNav from '../components/sidenav'
 // import { FunnelChart } from '../recharts/types/chart/FunnelChart'
