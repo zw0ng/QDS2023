@@ -1,8 +1,11 @@
+// To be seen on all pages
+
 const SideNav = () => {
    return (
       <aside className="w-64" aria-label="Sidebar">
          <div className="px-3 py-4 overflow-y-auto rounde dark:bg-gray-800">
             <ul className="space-y-2">
+               {/* Seperate Card */}
                <li>
                   <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g className="nc-icon-wrapper" stroke-width="2" fill="#000000" stroke="#000000"><polyline points="6 13 9 7 16 12 22 3" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10"></polyline> <line x1="2" y1="21" x2="4.246" y2="16.508" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10"></line> <polyline points="2 13 6 13 16 18 22 14" fill="none" stroke-linecap="square" stroke-miterlimit="10" data-color="color-2"></polyline></g></svg>
@@ -17,7 +20,48 @@ const SideNav = () => {
                </li>
                <li>
                   <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g className="nc-icon-wrapper" stroke-width="2" fill="#000000" stroke="#000000"><polyline data-cap="butt" data-color="color-2" points="5.11 3.425 6.722 4.75 8.367 6.506 7.963 9.246 5.369 10.558 4 11.726 4.667 12.864 5.974 14.264 6.68 16.737 4.717 18.384 4.358 19.912" fill="none" stroke-miterlimit="10"></polyline><polyline data-cap="butt" data-color="color-2" points="20.32 4.805 18.843 5.643 15.843 6 13.559 4.162 12.939 2.349 12.127 1" fill="none" stroke-miterlimit="10"></polyline><polygon data-color="color-2" points="19.007 12.903 18.079 15.001 17.125 17.152 15.362 18.793 13.023 18.943 11.629 17.253 12.097 15.083 11.694 12.94 13.287 10.943 15.514 10.161 17.872 10.725 19.007 12.903" fill="none" stroke-linecap="square" stroke-miterlimit="10"></polygon><circle cx="12" cy="12" r="11" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10"></circle></g></svg>
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                     >
+                        <g
+                           className="nc-icon-wrapper"
+                           stroke-width="2"
+                           fill="#000000"
+                           stroke="#000000"
+                        >
+                           <polyline
+                              data-cap="butt"
+                              data-color="color-2"
+                              points="5.11 3.425 6.722 4.75 8.367 6.506 7.963 9.246 5.369 10.558 4 11.726 4.667 12.864 5.974 14.264 6.68 16.737 4.717 18.384 4.358 19.912"
+                              fill="none"
+                              stroke-miterlimit="10"
+                           ></polyline>
+                           <polyline
+                              data-cap="butt"
+                              data-color="color-2"
+                              points="20.32 4.805 18.843 5.643 15.843 6 13.559 4.162 12.939 2.349 12.127 1"
+                              fill="none"
+                              stroke-miterlimit="10"
+                           ></polyline>
+                           <polygon
+                              data-color="color-2"
+                              points="19.007 12.903 18.079 15.001 17.125 17.152 15.362 18.793 13.023 18.943 11.629 17.253 12.097 15.083 11.694 12.94 13.287 10.943 15.514 10.161 17.872 10.725 19.007 12.903"
+                              fill="none"
+                              stroke-linecap="square"
+                              stroke-miterlimit="10"
+                           ></polygon>
+                           <circle
+                              cx="12"
+                              cy="12"
+                              r="11"
+                              fill="none"
+                              stroke="#000000"
+                              stroke-linecap="square"
+                              stroke-miterlimit="10"
+                           ></circle></g></svg>
                      <span className="flex-1 ml-3 whitespace-nowrap">Map</span>
                   </a>
                </li>
