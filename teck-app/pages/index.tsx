@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google'
 import Topnav from '../components/topnav'
 import SideNav from '../components/sidenav'
 import { FunnelChart } from 'recharts/types/chart/FunnelChart'
-import Averageschart from '../components/chart'
+import Averageschart from '../components/avg-chart'
 
 
 const inter = Inter({ subsets: ['latin'] })
