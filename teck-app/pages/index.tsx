@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
 import Topnav from '../components/topnav'
 import SideNav from '../components/sidenav'
-import { Bar } from 'react-chartjs-2/dist/typedCharts'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +18,6 @@ export default function Home() {
       <main>
       <Topnav/>
       <SideNav/>
-      <Bar data={data} />
 
       </main>
     </>
